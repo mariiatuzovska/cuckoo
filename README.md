@@ -22,7 +22,7 @@ The performance metrics above were generated using the following parameters:
 - **Total Strings Inserted**: 5,000,000
 - **Number of Checks (Existing and Non-Existing)**: 100,000
 
-The `main` function used for these experiments can be found in [./cmd/main.go](./cmd/main.go):
+The `main` function used for these experiments can be found in [./u/main.go](./example/main.go):
 
 ## Key Observations
 - **Memory Usage**:
@@ -39,7 +39,7 @@ The `main` function used for these experiments can be found in [./cmd/main.go](.
 ## How to Run
 
 ```bash
-go run ./cmd/main.go
+go run ./example/main.go
 ```
 
 ## Code Highlights
